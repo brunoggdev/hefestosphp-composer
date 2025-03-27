@@ -6,7 +6,7 @@ função anonima ou um metodo de controller. Consulte a documentação.
 
 use Hefestos\Rotas\Rota;
 
-Rota::get('/', function() {
+Rota::get('/', function () {
     return view('home');
 });
 
