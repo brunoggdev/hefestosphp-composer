@@ -22,13 +22,14 @@
     }
   },
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "brunoggdev/hefestos-core": "^1.0"
   },
   "scripts": {
     "post-create-project-cmd": [
         "@php -r \"file_put_contents('php://output', base64_decode('PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogIE9icmlnYWRvIHBvciB1c2FyIG8gSGVmZXN0b3NQSFAhIEZvcmplIGFsZ28gaW5jcsOtdmVsIQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09'));\""
     ]
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
