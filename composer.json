@@ -23,7 +23,7 @@
   },
   "require": {
     "php": "^8.0",
-    "brunoggdev/hefestos-core": "^1.0"
+    "brunoggdev/hefestosphp-core": "^1.0"
   },
   "scripts": {
     "post-create-project-cmd": [
